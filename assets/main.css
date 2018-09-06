@@ -1,0 +1,72 @@
+  @import url("https://use.typekit.net/vxg0frn.css");
+  @import url('https://fonts.googleapis.com/css?family=Chango|Fredoka+One');
+
+h1 {
+  font-size: 45px;
+  font-weight: 700;
+  font-family: "sofia-pro-soft";
+  color: #ffffff;
+}
+
+h2 {
+  font-size: 25px;
+  font-weight: 400;
+  font-family: "sofia-pro-soft";
+  color: #000000;
+}
+
+h3 {
+  font-family: 'Chango', cursive;
+  font-size: 65px;
+  transform: rotate(90deg);
+  float: right;
+  padding-bottom: 37%;
+  color: #00ffe0;
+}
+
+p {
+  font-size: 20px;
+  font-weight: 300;
+  font-family: "sofia-pro-soft";
+  color: #000000;
+}
+
+body {
+  background-color: #ffe9e4;
+  max-width: 100%;
+}
+
+a {
+  color: #000000;
+}
+
+.col1 {
+  position: absolute;
+  padding-left: 10%;
+  padding-top: 550px;
+}
+
+.col2 {
+  position: absolute;
+  padding-left: 30%;
+  padding-top: 550px;
+}
+
+.col3 {
+  position: absolute;
+  padding-left: 50%;
+  padding-top: 550px;
+}
+
+.banner {
+  background-position: center;
+  margin-top: -500px;
+  margin-left: -2%;
+  margin-right: -2%;
+  position: absolute;
+}
+
+.text {
+  max-width: 833px;
+  min-width: 400px;
+}
