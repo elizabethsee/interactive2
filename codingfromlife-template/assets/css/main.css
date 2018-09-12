@@ -1,0 +1,291 @@
+body {
+	background: #cccccc;
+}
+
+.stage {
+	width: 900px;
+	height: 556px;
+	margin: 100px auto;
+	background: #f3f3f3;
+	position: relative;
+	z-index: -3;
+}
+
+#paper {
+	clip-path: polygon(22% 0, 79% 0, 100% 100%, 0% 100%);
+	width: 850px;
+	height: 100px;
+	background: #ff4545;
+	top: 380px;
+	left: 30px;
+	position: absolute;
+	z-index: -2;
+}
+
+#triangle {
+	width: 0;
+	height: 0;
+	border-left: 75px solid transparent;
+	border-right: 75px solid transparent;
+	border-bottom: 150px solid yellow;
+	position: absolute;
+	top: 283px;
+	left: 60px;
+}
+
+#square {
+	width: 150px;
+	height: 110px;
+	background: red;
+	top: 283px;
+	left: 270px;
+	border-radius: 130px;
+	position: absolute;
+
+	/* uncomment to add keyframe animation */
+	/* animation: spin 2s infinite; */
+
+}
+
+#tv {
+	width: 590px;
+	height: 230px;
+	background: #1a1a1a;
+	top: 0px;
+	left: 0px;
+	position: absolute;
+	z-index: -2;
+}
+
+#tvborder {
+	width: 595px;
+	height: 240px;
+	background: #7b7b7b;
+	top: 0px;
+	left: 0px;
+	position: absolute;
+	z-index: -3;
+}
+
+#stem {
+	width: 10px;
+	height: 200px;
+	background: #aee250;
+	top: 130px;
+	left: 343px;
+	position: absolute;
+	z-index: -2;
+}
+
+#circle {
+	width: 20px;
+	height: 17px;
+	background: orange;
+	border-radius: 15px;
+	top: 430px;
+	left: 500px;
+	position: absolute;
+}
+
+#nub {
+	width: 28px;
+	height: 25px;
+	background: red;
+	border-radius: 10px;
+	top: 270px;
+	left: 335px;
+	position: absolute;
+}
+
+#vase {
+	width: 150px;
+	height: 150px;
+	background: brown;
+	top: 283px;
+	left: 270px;
+	border-radius: 130px;
+	position: absolute;
+	z-index: -1;
+}
+
+#clip {
+	width: 150px;
+	height: 170px;
+	background:  #ff924d;
+	clip-path: polygon(32% 93%, 56% 93%, 71% 83%, 84% 80%, 70% 73%, 73% 40%, 78% 37%, 69% 31%, 61% 67%, 50% 67%, 36% 15%, 35% 67%, 13% 69%, 30% 81%);
+	top: 253px;
+	left: 560px;
+	position: absolute;
+}
+
+#petal1 {
+	width: 20px;
+	height: 55px;
+	background: #fff21a;
+	top: 50px;
+	left: 335px;
+	border-radius: 10px;
+	position: absolute;
+	z-index: -1;
+}
+
+#petal2 {
+	width: 20px;
+	height: 55px;
+	background: #fff21a;
+	top: 60px;
+	left: 350px;
+	border-radius: 10px;
+	position: absolute;
+	z-index: -1;
+	transform: rotate(25deg);
+}
+
+#petal3 {
+	width: 20px;
+	height: 55px;
+	background: #fff21a;
+	top: 70px;
+	left: 353px;
+	border-radius: 10px;
+	position: absolute;
+	z-index: -1;
+	transform: rotate(70deg);
+}
+
+
+#petal4 {
+	width: 20px;
+	height: 55px;
+	background: #fff21a;
+	top: 60px;
+	left: 320px;
+	border-radius: 10px;
+	position: absolute;
+	z-index: -1;
+	transform: rotate(-25deg);
+}
+
+#petal5 {
+	width: 20px;
+	height: 55px;
+	background: #fff21a;
+	top: 70px;
+	left: 313px;
+	border-radius: 10px;
+	position: absolute;
+	z-index: -1;
+	transform: rotate(-70deg);
+}
+
+#petal6 {
+	width: 20px;
+	height: 55px;
+	background: #fff21a;
+	top: 100px;
+	left: 335px;
+	border-radius: 10px;
+	position: absolute;
+	z-index: -1;
+}
+
+#petal7 {
+	width: 20px;
+	height: 55px;
+	background: #fff21a;
+	top: 95px;
+	left: 350px;
+	border-radius: 10px;
+	position: absolute;
+	z-index: -1;
+	transform: rotate(-25deg);
+}
+
+#petal8 {
+	width: 20px;
+	height: 55px;
+	background: #fff21a;
+	top: 85px;
+	left: 355px;
+	border-radius: 10px;
+	position: absolute;
+	z-index: -1;
+	transform: rotate(-70deg);
+}
+
+#petal9 {
+	width: 20px;
+	height: 55px;
+	background: #fff21a;
+	top: 95px;
+	left: 320px;
+	border-radius: 10px;
+	position: absolute;
+	z-index: -1;
+	transform: rotate(25deg);
+}
+
+#petal10 {
+	width: 20px;
+	height: 55px;
+	background: #fff21a;
+	top: 85px;
+	left: 315px;
+	border-radius: 10px;
+	position: absolute;
+	z-index: -1;
+	transform: rotate(70deg);
+}
+
+#mouth {
+	width: 25px;
+	height: 25px;
+	background: #5d230b;
+	border-radius: 25px;
+	top: 93px;
+	left: 330px;
+	position: absolute;
+}
+
+#table {
+	width: 900px;
+	height: 190px;
+	background: #ffdaa8;
+	top: 366px;
+	left: 0px;
+	position: absolute;;
+	z-index: -3
+}
+
+
+	/* uncomment for css transitions */
+	/* transition: all 400ms ease; */
+}
+
+/* animations */
+
+/*
+#clip:hover {
+	transform: rotate(1200deg);
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+@keyframes move {
+  from {
+    transform: translateX(0px);
+  }
+  to {
+    transform: translateX(100px);
+  }
+}
+
+*/
