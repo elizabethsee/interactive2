@@ -21,7 +21,7 @@ h3 {
   transform: rotate(90deg);
   float: right;
   padding-bottom: 37%;
-  color: #00ffe0;
+  color: #f1d9cf;
 }
 
 p {
@@ -40,31 +40,46 @@ a {
   color: #000000;
 }
 
-.col1 {
-  position: absolute;
+.stage {
+	width: 250px;
+	height: 300px;
+	margin: 100px auto;
+  padding-left: 20px;
+	position: relative;
+  float: left;
+}
+
+#col1 {
+  /* position: absolute; */
   padding-left: 10%;
-  padding-top: 550px;
+  padding-top: 100px;
+  height: 300px;
+  width: 300px;
 }
 
-.col2 {
-  position: absolute;
+#col2 {
+  /* position: absolute; */
   padding-left: 30%;
-  padding-top: 550px;
+  padding-top: 100px;
+  height: 300px;
+  width: 300px;
 }
 
-.col3 {
-  position: absolute;
-  padding-left: 50%;
-  padding-top: 550px;
+#col3 {
+  /* position: absolute; */
+  padding-left: 60%;
+  padding-top: 100px;
+  height: 300px;
+  width: 300px;
 }
 
-.banner {
+/* .banner {
   background-position: center;
   margin-top: -500px;
   margin-left: -2%;
   margin-right: -2%;
-  position: absolute;
-}
+  position: relative;
+} */
 
 .text {
   max-width: 833px;
