@@ -1,0 +1,1354 @@
+body {
+  background-color: white;
+}
+
+.stage {
+	width: 270px;
+	height: 570px;
+	margin: 20px;
+	/* background: #f3f3f3; */
+	float: left;
+  position: relative;
+}
+
+.stagewide {
+	width: 450px;
+	height: 570px;
+	margin: 20px;
+	/* background: #f3f3f3; */
+	float: left;
+  position: relative;
+}
+
+.stagethin {
+	width: 100px;
+	height: 570px;
+	margin: 20px;
+	/* background: #f3f3f3; */
+	float: left;
+  position: relative;
+}
+
+.stage * {
+  transition: all 350ms ease;
+}
+
+.stagewide * {
+  transition: all 350ms ease;
+}
+
+.stagethin * {
+  transition: all 350ms ease;
+}
+
+.stage.a:hover #a1{
+  clip-path: inset(50px 120px 0px 0px);
+}
+
+.stage.a:hover #a2{
+  top: 237px;
+  height: 99px;
+}
+
+.stage.a:hover #a3{
+  width: 0px;
+  left: 223px;
+}
+
+.stage.a:hover #a4{
+  clip-path: inset(0px 0px 78px 90px);
+}
+
+.stage.a:hover #a5{
+  clip-path: inset(0px 0px 78px 120px);
+}
+
+#a1 {
+  width: 180px;
+  height: 120px;
+  border-radius: 180px;
+  left: 0px;
+  top: 273px;
+  position: absolute;
+  border:3px solid #000000;
+  clip-path: inset(80px 0px 0px 70px);
+  background-color: transparent;
+}
+
+#a2 {
+  width: 3px;
+  height: 45px;
+  background: #000000;
+  top: 353px;
+  left: 181px;
+  position: absolute;
+}
+
+#a3 {
+  width: 40px;
+  height: 3px;
+  background: #000000;
+  top: 395px;
+  left: 183px;
+  position: absolute;
+}
+
+#a4 {
+  width: 180px;
+  height: 120px;
+  border-radius: 180px;
+  left: 0px;
+  top: 273px;
+  position: absolute;
+  border:3px solid #000000;
+  clip-path: inset(0px 100px 80px 0px);
+  background-color: transparent;
+}
+
+#a5 {
+  width: 180px;
+  height: 120px;
+  border-radius: 180px;
+  left: 0px;
+  top: 193px;
+  position: absolute;
+  border:3px solid #000000;
+  clip-path: inset(0px 70px 90px 0px);
+  background-color: transparent;
+}
+
+.stage.b:hover #b1{
+  width: 0px;
+}
+
+.stage.b:hover #b2{
+  height: 150px;
+  top: 50px;
+}
+
+.stage.b:hover #b3{
+  height: 150px;
+  top: 130px;
+}
+
+.stage.b:hover #b4{
+  width: 0px;
+}
+
+.stage.b:hover #b5{
+  clip-path: inset(70px -50px 0px 80px);
+}
+
+.stage.b:hover #b6{
+  clip-path: inset(0px 70px 90px -20px);
+}
+
+#b1 {
+  width: 40px;
+  height: 3px;
+  background: #000000;
+  top: 0px;
+  left: 0px;
+  position: absolute;
+}
+
+#b2 {
+  width: 3px;
+  height: 50px;
+  background: #000000;
+  top: 0px;
+  left: 40px;
+  position: absolute;
+}
+
+#b3 {
+  width: 3px;
+  height: 80px;
+  background: #000000;
+  top: 318px;
+  left: 40px;
+  position: absolute;
+}
+
+#b4 {
+  width: 40px;
+  height: 3px;
+  background: #000000;
+  top: 395px;
+  left: 0px;
+  position: absolute;
+}
+
+#b5 {
+  width: 170px;
+  height: 200px;
+  border-radius: 180px;
+  left: 39px;
+  top: 190px;
+  position: absolute;
+  border:3px solid #000000;
+  clip-path: inset(130px 70px 0px 0px);
+  background-color: transparent;
+}
+
+#b6 {
+  width: 170px;
+  height: 200px;
+  border-radius: 180px;
+  left: 40px;
+  top: 190px;
+  position: absolute;
+  border:3px solid #000000;
+  clip-path: inset(0px 0px 110px 70px);
+  background-color: transparent;
+}
+
+.stage.c:hover #c1{
+  clip-path: inset(0px 150px 0px -30px);
+}
+
+.stage.c:hover #c2{
+  top: 190px;
+  clip-path: inset(0px 150px 130px 40px);
+}
+
+.stage.c:hover #c3{
+  height: 0px;
+}
+
+#c1 {
+  width: 180px;
+  height: 200px;
+  border-radius: 180px;
+  left: 0px;
+  top: 190px;
+  position: absolute;
+  border:3px solid #000000;
+  clip-path: inset(130px 0px 0px 50px);
+  background-color: transparent;
+}
+
+#c2 {
+  width: 180px;
+  height: 180px;
+  border-radius: 180px;
+  left: 0px;
+  top: 190px;
+  position: absolute;
+  border:3px solid #000000;
+  clip-path: inset(0px 16px 130px 40px);
+  background-color: transparent;
+}
+
+#c3 {
+  width: 3px;
+  height: 45px;
+  background: #000000;
+  top: 192px;
+  left: 170px;
+  position: absolute;
+}
+
+.stage.d:hover #d1{
+  width: 0px;
+  left: 190px;
+}
+
+.stage.d:hover #d2{
+  width: 0px;
+}
+
+.stage.d:hover #d3{
+  height: 170px;
+  top: 130px;
+}
+
+.stage.d:hover #d4{
+  height: 150px;
+  top: 50px;
+}
+
+.stage.d:hover #d5{
+  clip-path: inset(100px 120px 0px -30px);
+}
+
+.stage.d:hover #d6{
+  clip-path: inset(0px -30px 90px 100px);
+}
+
+#d1 {
+  width: 40px;
+  height: 3px;
+  background: #000000;
+  top: 0px;
+  left: 146px;
+  position: absolute;
+}
+
+#d2 {
+  width: 40px;
+  height: 3px;
+  background: #000000;
+  top: 395px;
+  left: 186px;
+  position: absolute;
+}
+
+#d3 {
+  width: 3px;
+  height: 78px;
+  background: #000000;
+  top: 320px;
+  left: 183px;
+  position: absolute;
+}
+
+#d4 {
+  width: 3px;
+  height: 50px;
+  background: #000000;
+  top: 0px;
+  left: 183px;
+  position: absolute;
+}
+
+#d5 {
+  width: 180px;
+  height: 200px;
+  border-radius: 180px;
+  left: 0px;
+  top: 190px;
+  position: absolute;
+  border:3px solid #000000;
+  clip-path: inset(130px 0px 0px 70px);
+  background-color: transparent;
+}
+
+#d6 {
+  width: 180px;
+  height: 200px;
+  border-radius: 180px;
+  left: 0px;
+  top: 190px;
+  position: absolute;
+  border:3px solid #000000;
+  clip-path: inset(0px 70px 110px 0px);
+  background-color: transparent;
+}
+
+.stage.e:hover #e1{
+  clip-path: inset(170px 100px 0px 0px);
+}
+
+.stage.e:hover #e2{
+  clip-path: inset(120px 0px 90px 130px);
+}
+
+.stage.e:hover #e3{
+  clip-path: inset(0px 100px 130px 0px);
+}
+
+.stage.e:hover #e4{
+  width: 120px;
+  left: 0px;
+}
+
+#e1 {
+  width: 180px;
+  height: 200px;
+  border-radius: 180px;
+  left: 0px;
+  top: 190px;
+  position: absolute;
+  border:3px solid #000000;
+  clip-path: inset(40px 60px 40px 0px);
+  background-color: transparent;
+}
+
+#e2 {
+  width: 180px;
+  height: 180px;
+  border-radius: 180px;
+  left: 0px;
+  top: 210px;
+  position: absolute;
+  border:3px solid #000000;
+  clip-path: inset(120px 0px 0px 90px);
+  background-color: transparent;
+}
+
+#e3 {
+  width: 180px;
+  height: 180px;
+  border-radius: 180px;
+  left: 0px;
+  top: 190px;
+  position: absolute;
+  border:3px solid #000000;
+  clip-path: inset(0px 0px 95px 90px);
+  background-color: transparent;
+}
+
+#e4 {
+  width: 60px;
+  height: 3px;
+  background: #000000;
+  top: 280px;
+  left: 126px;
+  position: absolute;
+  }
+
+.stagethin.f:hover #f1{
+  width: 0px;
+  left: 35px;
+}
+
+.stagethin.f:hover #f2{
+  width: 0px;
+}
+
+.stagethin.f:hover #f3{
+  width: 0px;
+}
+
+.stagethin.f:hover #f5{
+  height: 267px;
+  top: 68px;
+}
+
+.stagethin.f:hover #f6{
+  clip-path: inset(68px 40px 42px 0px);
+}
+
+/* .stage.f:hover #f4{
+  width: 0px;
+} */
+
+#f1 {
+  width: 30px;
+  height: 3px;
+  left: 5px;
+  background: #000000;
+  top: 230px;
+  position: absolute;
+  }
+
+#f2 {
+  width: 30px;
+  height: 3px;
+  left: 35px;
+  background: #000000;
+  top: 230px;
+  position: absolute;
+  }
+
+#f3 {
+  width: 80px;
+  height: 3px;
+  background: #000000;
+  top: 395px;
+  position: absolute;
+  }
+
+/* #f4 {
+  width: 40px;
+  height: 5px;
+  left: 40px;
+  background: #000000;
+  top: 395px;
+  position: absolute;
+  } */
+
+#f5 {
+  width: 3px;
+  height: 50px;
+  left: 37px;
+  background: #000000;
+  top: 345px;
+  position: absolute;
+  }
+
+#f6 {
+  width: 80px;
+  height: 100px;
+  border-radius: 80px;
+  left: 37px;
+  position: absolute;
+  border:3px solid #000000;
+  clip-path: inset(0px 40px 42px 0px);
+  background-color: transparent;
+}
+
+.stage.g:hover #g1{
+  clip-path: inset(0px 90px 70px 0px);
+}
+
+.stage.g:hover #g2{
+  clip-path: inset(90px 0px 0px 110px);
+}
+
+.stage.g:hover #g3{
+  height: 180px;
+  top: 300px;
+}
+
+.stage.g:hover #g4{
+  width: 0px;
+  left: 225px;
+}
+
+.stage.g:hover #g5{
+  clip-path: inset(120px 0px 0px 90px);
+}
+
+#g1 {
+  width: 180px;
+  height: 200px;
+  border-radius: 180px;
+  left: 0px;
+  top: 190px;
+  position: absolute;
+  border:3px solid #000000;
+  clip-path: inset(130px 70px 0px 0px);
+  background-color: transparent;
+}
+
+#g2 {
+  width: 180px;
+  height: 200px;
+  border-radius: 180px;
+  left: 0px;
+  top: 190px;
+  position: absolute;
+  border:3px solid #000000;
+  clip-path: inset(0px 0px 120px 100px);
+  background-color: transparent;
+}
+
+#g3 {
+  width: 3px;
+  height: 87px;
+  background: #000000;
+  top: 190px;
+  left: 183px;
+  position: absolute;
+}
+
+#g4 {
+  width: 40px;
+  height: 3px;
+  background: #000000;
+  top: 190px;
+  left: 185px;
+  position: absolute;
+}
+
+#g5 {
+  width: 180px;
+  height: 200px;
+  border-radius: 180px;
+  left: 0px;
+  top: 360px;
+  position: absolute;
+  border:3px solid #000000;
+  clip-path: inset(130px 70px 0px 0px);
+  background-color: transparent;
+}
+
+.stage.h:hover #h1{
+  width: 0px;
+  left: 40px;
+}
+
+.stage.h:hover #h2{
+  width: 0px;
+}
+
+.stage.h:hover #h3{
+  height: 150px;
+  top: 50px;
+}
+
+.stage.h:hover #h4{
+  height: 0px;
+  top: 395px;
+}
+
+.stage.h:hover #h5{
+  clip-path: inset(0px 0px 88px 40px);
+}
+
+.stage.h:hover #h6{
+  height: 0px;
+  top: 395px;
+}
+
+.stage.h:hover #h7{
+  width: 0px;
+}
+
+.stage.h:hover #h8{
+  top: 279px;
+  height: 69px;
+}
+
+#h1 {
+  width: 40px;
+  height: 3px;
+  background: #000000;
+  top: 0px;
+  left: 0px;
+  position: absolute;
+}
+
+#h2 {
+  width: 80px;
+  height: 3px;
+  background: #000000;
+  top: 395px;
+  position: absolute;
+}
+
+#h3 {
+  width: 3px;
+  height: 50px;
+  background: #000000;
+  top: 0px;
+  left: 37px;
+  position: absolute;
+}
+
+#h4 {
+  width: 3px;
+  height: 50px;
+  left: 37px;
+  background: #000000;
+  top: 345px;
+  position: absolute;
+}
+
+#h5 {
+  width: 180px;
+  height: 200px;
+  border-radius: 180px;
+  left: 37px;
+  top: 192px;
+  position: absolute;
+  border:3px solid #000000;
+  clip-path: inset(0px 145px 120px 0px);
+  background-color: transparent;
+}
+
+#h6 {
+  width: 3px;
+  height: 80px;
+  left: 220px;
+  background: #000000;
+  top: 315px;
+  position: absolute;
+}
+
+#h7 {
+  width: 40px;
+  height: 3px;
+  background: #000000;
+  top: 395px;
+  left: 220px;
+  position: absolute;
+}
+
+#h8 {
+  width: 3px;
+  height: 79px;
+  background: #000000;
+  top: 200px;
+  left: 37px;
+  position: absolute;
+}
+
+.stagethin.i:hover #i1{
+  width: 0px;
+}
+
+.stagethin.i:hover #i2{
+  top: 240px;
+  height: 90px;
+}
+
+.stagethin.i:hover #i3{
+  top: 295px;
+  height: 60px;
+}
+
+.stagethin.i:hover #i4{
+  width: 0px;
+}
+
+.stagethin.i:hover #i5{
+  border:0px solid #000000;
+  left: 37px;
+  top: 128px;
+}
+
+#i1 {
+  width: 40px;
+  height: 3px;
+  background: #000000;
+  top: 190px;
+  left: 0px;
+  position: absolute;
+}
+
+#i2 {
+  width: 3px;
+  height: 50px;
+  background: #000000;
+  top: 190px;
+  left: 37px;
+  position: absolute;
+}
+
+#i3 {
+  width: 3px;
+  height: 50px;
+  left: 37px;
+  background: #000000;
+  top: 345px;
+  position: absolute;
+}
+
+#i4 {
+  width: 80px;
+  height: 3px;
+  background: #000000;
+  top: 395px;
+  position: absolute;
+}
+
+#i5 {
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  left: 30px;
+  top: 125px;
+  position: absolute;
+  border:3px solid #000000;
+  background-color: transparent;
+}
+
+.stagethin.j:hover #j1{
+  width: 0px;
+}
+
+.stagethin.j:hover #j2{
+  top: 240px;
+  height: 260px;
+}
+
+.stagethin.j:hover #j3{
+  clip-path: inset(40px 0px 60px 40px);
+}
+
+.stagethin.j:hover #j4{
+  border:0px solid #000000;
+  left: 37px;
+  top: 128px;
+}
+
+#j1 {
+  width: 40px;
+  height: 3px;
+  background: #000000;
+  top: 190px;
+  left: 0px;
+  position: absolute;
+}
+
+#j2 {
+  width: 3px;
+  height: 50px;
+  background: #000000;
+  top: 190px;
+  left: 40px;
+  position: absolute;
+}
+
+#j3 {
+  width: 80px;
+  height: 100px;
+  border-radius: 50px;
+  left: -43px;
+  top: 460px;
+  position: absolute;
+  border:3px solid #000000;
+  clip-path: inset(40px 0px 0px 43px);
+  background-color: transparent;
+}
+
+#j4 {
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  left: 30px;
+  top: 125px;
+  position: absolute;
+  border:3px solid #000000;
+  background-color: transparent;
+}
+
+.stagethin.l:hover #l1{
+  width: 0px;
+  /* background-color: #da00ff; */
+}
+
+.stagethin.l:hover #l2{
+  top: 50px;
+  height: 295px;
+  /* background-color: #da00ff; */
+}
+
+.stagethin.l:hover #l3{
+  width: 0px;
+}
+
+.stagethin.l:hover #l4{
+  height: 0px;
+}
+
+#l1 {
+  width: 40px;
+  height: 3px;
+  background: #000000;
+  top: 0px;
+  left: 0px;
+  position: absolute;
+}
+
+#l2 {
+  width: 3px;
+  height: 50px;
+  background: #000000;
+  top: 0px;
+  left: 40px;
+  position: absolute;
+}
+
+#l3 {
+    width: 80px;
+    height: 3px;
+    background: #000000;
+    top: 395px;
+    position: absolute;
+}
+
+#l4 {
+  width: 3px;
+  height: 50px;
+  left: 40px;
+  background: #000000;
+  top: 345px;
+  position: absolute;
+}
+
+.stage.k:hover #k1{
+  width: 0px;
+}
+
+.stage.k:hover #k2{
+  height: 200px;
+  top: 55px;
+}
+
+.stage.k:hover #k3{
+  height: 198px;
+  top: 145px;
+}
+
+.stage.k:hover #k4{
+  width: 0px;
+}
+
+.stage.k:hover #k5{
+  width: 0px;
+  left: 225px;
+}
+
+.stage.k:hover #k6{
+  width: 0px;
+  left: 225px;
+}
+
+.stage.k:hover #k7{
+  height: 187px;
+  top: 183px;
+  left: 105px;
+}
+
+.stage.k:hover #k8{
+  height: 103px;
+  top: 280px;
+  left: 125px;
+}
+
+
+#k1 {
+  width: 40px;
+  height: 3px;
+  background: #000000;
+  top: 0px;
+  left: 0px;
+  position: absolute;
+}
+
+#k2 {
+  width: 3px;
+  height: 50px;
+  background: #000000;
+  top: 0px;
+  left: 40px;
+  position: absolute;
+}
+
+#k3 {
+  width: 3px;
+  height: 50px;
+  background: #000000;
+  top: 345px;
+  left: 40px;
+  position: absolute;
+}
+
+#k4 {
+    width: 80px;
+    height: 3px;
+    background: #000000;
+    top: 395px;
+    position: absolute;
+}
+
+#k5 {
+    width: 80px;
+    left: 145px;
+    height: 3px;
+    background: #000000;
+    top: 190px;
+    position: absolute;
+}
+
+#k6 {
+    width: 40px;
+    left: 185px;
+    height: 3px;
+    background: #000000;
+    top: 395px;
+    position: absolute;
+}
+
+#k7 {
+    width: 3px;
+    left: 175px;
+    height: 40px;
+    background: #000000;
+    top: 185px;
+    position: absolute;
+    transform: rotate(45deg);
+}
+
+#k8 {
+    width: 3px;
+    left: 170px;
+    height: 40px;
+    background: #000000;
+    top: 363px;
+    position: absolute;
+    transform: rotate(135deg);
+}
+
+.stagewide.m:hover #m1{
+  width: 0px;
+}
+
+.stagewide.m:hover #m2{
+  top: 278px;
+  height: 50px;
+}
+
+.stagewide.m:hover #m3{
+  top: 295px;
+  height: 60px;
+}
+
+.stagewide.m:hover #m4{
+  width: 0px;
+}
+
+.stagewide.m:hover #m5{
+  clip-path: inset(0px 30px 120px 40px);
+}
+
+.stagewide.m:hover #m6{
+  top: 275px;
+}
+
+.stagewide.m:hover #m7{
+  width: 0px;
+}
+
+.stagewide.m:hover #m8{
+  clip-path: inset(85px 0px 120px 150px);
+}
+
+.stagewide.m:hover #m9{
+  clip-path: inset(0px 40px 145px 50px);
+}
+
+.stagewide.m:hover #m10{
+  clip-path: inset(70px 0px 140px 140px);
+}
+
+.stagewide.m:hover #m11{
+  top: 260px;
+  height: 85px;
+}
+
+.stagewide.m:hover #m12{
+  width: 0px;
+}
+
+#m1 {
+  width: 40px;
+  height: 3px;
+  background: #000000;
+  top: 190px;
+  left: 0px;
+  position: absolute;
+}
+
+#m2 {
+  width: 3px;
+  height: 90px;
+  background: #000000;
+  top: 190px;
+  left: 37px;
+  position: absolute;
+}
+
+#m3 {
+  width: 3px;
+  height: 50px;
+  left: 37px;
+  background: #000000;
+  top: 345px;
+  position: absolute;
+}
+
+#m4 {
+  width: 80px;
+  height: 3px;
+  background: #000000;
+  top: 395px;
+  position: absolute;
+}
+
+#m5 {
+  width: 180px;
+  height: 200px;
+  border-radius: 180px;
+  left: 37px;
+  top: 192px;
+  position: absolute;
+  border:3px solid #000000;
+  clip-path: inset(0px 145px 120px 0px);
+  background-color: transparent;
+}
+
+#m6 {
+  width: 3px;
+  height: 50px;
+  left: 220px;
+  background: #000000;
+  top: 345px;
+  position: absolute;
+}
+
+#m7 {
+  width: 40px;
+  height: 3px;
+  background: #000000;
+  top: 395px;
+  left: 220px;
+  position: absolute;
+}
+
+#m8 {
+  width: 180px;
+  height: 200px;
+  border-radius: 180px;
+  left: 37px;
+  top: 192px;
+  position: absolute;
+  border:3px solid #000000;
+  clip-path: inset(0px 0px 120px 150px);
+  background-color: transparent;
+}
+
+#m9 {
+  width: 180px;
+  height: 200px;
+  border-radius: 180px;
+  left: 207px;
+  top: 192px;
+  position: absolute;
+  border:3px solid #000000;
+  clip-path: inset(0px 160px 145px 8px);
+  background-color: transparent;
+}
+
+#m10 {
+  width: 180px;
+  height: 200px;
+  border-radius: 180px;
+  left: 207px;
+  top: 192px;
+  position: absolute;
+  border:3px solid #000000;
+  clip-path: inset(0px 0px 145px 140px);
+  background-color: transparent;
+}
+
+#m11 {
+  width: 3px;
+  height: 50px;
+  left: 385px;
+  background: #000000;
+  top: 345px;
+  position: absolute;
+}
+
+#m12 {
+  width: 40px;
+  height: 3px;
+  background: #000000;
+  top: 395px;
+  left: 385px;
+  position: absolute;
+}
+
+.stage.n:hover #n1{
+  width: 0px;
+}
+
+.stage.n:hover #n2{
+  top: 278px;
+  height: 50px;
+}
+
+.stage.n:hover #n3{
+  top: 295px;
+  height: 60px;
+}
+
+.stage.n:hover #n4{
+  width: 0px;
+}
+
+.stage.n:hover #n5{
+  clip-path: inset(0px 0px 120px 40px);
+}
+
+.stage.n:hover #n6{
+  top: 276px;
+  height: 70px;
+}
+
+.stage.n:hover #n7{
+  width: 0px;
+}
+
+#n1 {
+  width: 40px;
+  height: 3px;
+  background: #000000;
+  top: 190px;
+  left: 0px;
+  position: absolute;
+}
+
+#n2 {
+  width: 3px;
+  height: 90px;
+  background: #000000;
+  top: 190px;
+  left: 37px;
+  position: absolute;
+}
+
+#n3 {
+  width: 3px;
+  height: 50px;
+  left: 37px;
+  background: #000000;
+  top: 345px;
+  position: absolute;
+}
+
+#n4 {
+  width: 80px;
+  height: 3px;
+  background: #000000;
+  top: 395px;
+  position: absolute;
+}
+
+#n5 {
+  width: 180px;
+  height: 200px;
+  border-radius: 180px;
+  left: 37px;
+  top: 192px;
+  position: absolute;
+  border:3px solid #000000;
+  clip-path: inset(0px 145px 120px 0px);
+  background-color: transparent;
+}
+
+#n6 {
+  width: 3px;
+  height: 50px;
+  left: 220px;
+  background: #000000;
+  top: 345px;
+  position: absolute;
+}
+
+#n7 {
+  width: 40px;
+  height: 3px;
+  background: #000000;
+  top: 395px;
+  left: 220px;
+  position: absolute;
+}
+
+.stage.o:hover #o1{
+  clip-path: inset(0px 105px 120px 0px);
+}
+
+.stage.o:hover #o2{
+  clip-path: inset(100px 0px 0px 100px);
+}
+
+#o1 {
+  width: 170px;
+  height: 200px;
+  border-radius: 180px;
+  left: 0px;
+  top: 190px;
+  position: absolute;
+  border:3px solid #000000;
+  clip-path: inset(130px 70px 0px 0px);
+  background-color: transparent;
+}
+
+#o2 {
+  width: 170px;
+  height: 200px;
+  border-radius: 180px;
+  left: 0px;
+  top: 190px;
+  position: absolute;
+  border:3px solid #000000;
+  clip-path: inset(0px 0px 110px 70px);
+  background-color: transparent;
+}
+
+.stage.s:hover #s1{
+  clip-path: inset(70px 190px 0px 0px);
+}
+
+.stage.s:hover #s2{
+  clip-path: inset(0px 0px 45px 150px);
+}
+
+.stage.s:hover #s3{
+  clip-path: inset(60px 0px -10px 90px);
+}
+
+.stage.s:hover #s4{
+  clip-path: inset(-20px 60px 10px -30px);
+}
+
+.stage.s:hover #s5{
+  height: 0px;
+  top: 245px;
+}
+
+.stage.s:hover #s6{
+  height: 0px;
+}
+
+#s1 {
+  width: 170px;
+  height: 120px;
+  border-radius: 180px;
+  left: 0px;
+  top: 270px;
+  position: absolute;
+  border:3px solid #000000;
+  clip-path: inset(70px 90px 0px 0px);
+  background-color: transparent;
+}
+
+#s2 {
+  width: 125px;
+  height: 80px;
+  border-radius: 180px;
+  left: 20px;
+  top: 195px;
+  position: absolute;
+  border:3px solid #000000;
+  clip-path: inset(0px 0px 45px 70px);
+  background-color: transparent;
+}
+
+#s3 {
+  width: 150px;
+  height: 110px;
+  border-radius: 180px;
+  left: 0px;
+  top: 280px;
+  position: absolute;
+  border:3px solid #000000;
+  clip-path: inset(0px 0px 60px 90px);
+  background-color: transparent;
+}
+
+#s4 {
+  width: 130px;
+  height: 82px;
+  border-radius: 180px;
+  left: 20px;
+  top: 195px;
+  position: absolute;
+  border:3px solid #000000;
+  clip-path: inset(60px 55px 0px 25px);
+  background-color: transparent;
+}
+
+#s5 {
+  width: 3px;
+  height: 45px;
+  background: #000000;
+  top: 195px;
+  left: 148px;
+  position: absolute;
+}
+
+#s6 {
+  width: 3px;
+  height: 50px;
+  background: #000000;
+  top: 340px;
+  left: 0px;
+  position: absolute;
+}
