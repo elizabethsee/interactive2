@@ -2,11 +2,26 @@ body {
   background-color: white;
 }
 
+.colourblock {
+  width: 120%;
+  margin-left: -100px;
+  height: 1000px;
+  background: #9600ff;
+}
+
+.centerstage {
+  width: 1600px;
+  height: 600px;
+  margin: auto;
+  background: pink;
+  margin-top: 10%;
+}
+
 .stage {
 	width: 270px;
 	height: 570px;
 	margin: 20px;
-	/* background: #f3f3f3; */
+	background: #f3f3f3;
 	float: left;
   position: relative;
 }
@@ -15,7 +30,7 @@ body {
 	width: 450px;
 	height: 570px;
 	margin: 20px;
-	/* background: #f3f3f3; */
+	background: #f3f3f3;
 	float: left;
   position: relative;
 }
@@ -24,7 +39,7 @@ body {
 	width: 100px;
 	height: 570px;
 	margin: 20px;
-	/* background: #f3f3f3; */
+	background: #f3f3f3;
 	float: left;
   position: relative;
 }
@@ -70,7 +85,7 @@ body {
   left: 0px;
   top: 273px;
   position: absolute;
-  border:3px solid #000000;
+  border:3px solid #333333;
   clip-path: inset(80px 0px 0px 70px);
   background-color: transparent;
 }
@@ -78,7 +93,7 @@ body {
 #a2 {
   width: 3px;
   height: 45px;
-  background: #000000;
+  background: #333333;
   top: 353px;
   left: 181px;
   position: absolute;
@@ -87,7 +102,7 @@ body {
 #a3 {
   width: 40px;
   height: 3px;
-  background: #000000;
+  background: #333333;
   top: 395px;
   left: 183px;
   position: absolute;
@@ -100,7 +115,7 @@ body {
   left: 0px;
   top: 273px;
   position: absolute;
-  border:3px solid #000000;
+  border:3px solid #333333;
   clip-path: inset(0px 100px 80px 0px);
   background-color: transparent;
 }
@@ -112,7 +127,7 @@ body {
   left: 0px;
   top: 193px;
   position: absolute;
-  border:3px solid #000000;
+  border:3px solid #333333;
   clip-path: inset(0px 70px 90px 0px);
   background-color: transparent;
 }
@@ -146,7 +161,7 @@ body {
 #b1 {
   width: 40px;
   height: 3px;
-  background: #000000;
+  background: #333333;
   top: 0px;
   left: 0px;
   position: absolute;
@@ -155,7 +170,7 @@ body {
 #b2 {
   width: 3px;
   height: 50px;
-  background: #000000;
+  background: #333333;
   top: 0px;
   left: 40px;
   position: absolute;
@@ -164,7 +179,7 @@ body {
 #b3 {
   width: 3px;
   height: 80px;
-  background: #000000;
+  background: #333333;
   top: 318px;
   left: 40px;
   position: absolute;
@@ -173,7 +188,7 @@ body {
 #b4 {
   width: 40px;
   height: 3px;
-  background: #000000;
+  background: #333333;
   top: 395px;
   left: 0px;
   position: absolute;
@@ -186,7 +201,7 @@ body {
   left: 39px;
   top: 190px;
   position: absolute;
-  border:3px solid #000000;
+  border:3px solid #333333;
   clip-path: inset(130px 70px 0px 0px);
   background-color: transparent;
 }
@@ -198,7 +213,7 @@ body {
   left: 40px;
   top: 190px;
   position: absolute;
-  border:3px solid #000000;
+  border:3px solid #333333;
   clip-path: inset(0px 0px 110px 70px);
   background-color: transparent;
 }
@@ -1260,6 +1275,153 @@ body {
   border:3px solid #000000;
   clip-path: inset(0px 0px 110px 70px);
   background-color: transparent;
+}
+
+.stage.p:hover #p4{
+  width: 0px;
+  left: 190px;
+}
+
+.stage.p:hover #p3{
+  width: 0px;
+}
+
+.stage.p:hover #p5{
+  height: 170px;
+  top: 130px;
+}
+
+.stage.p:hover #p6{
+  height: 150px;
+  top: 50px;
+}
+
+.stage.p:hover #p1{
+  clip-path: inset(100px 120px 0px -30px);
+}
+
+.stage.p:hover #p2{
+  clip-path: inset(0px -30px 90px 100px);
+}
+
+#p1 {
+  width: 170px;
+  height: 200px;
+  border-radius: 180px;
+  left: 40px;
+  top: 190px;
+  position: absolute;
+  border:3px solid #000000;
+  clip-path: inset(130px 0px 0px 70px);
+  background-color: transparent;
+}
+
+#p2 {
+  width: 170px;
+  height: 200px;
+  border-radius: 180px;
+  left: 40px;
+  top: 190px;
+  position: absolute;
+  border:3px solid #000000;
+  clip-path: inset(0px 70px 110px 0px);
+  background-color: transparent;
+}
+
+#p3 {
+  width: 40px;
+  height: 3px;
+  background: #000000;
+  top: 190px;
+  left: 0px;
+  position: absolute;
+}
+
+#p4 {
+  width: 3px;
+  height: 90px;
+  background: #000000;
+  top: 190px;
+  left: 40px;
+  position: absolute;
+}
+
+#p5 {
+  width: 40px;
+  height: 3px;
+  background: #000000;
+  top: 567px;
+  left: 0px;
+  position: absolute;
+}
+
+#p6 {
+  width: 3px;
+  height: 78px;
+  background: #000000;
+  top: 492px;
+  left: 40px;
+  position: absolute;
+}
+
+#q1 {
+  width: 170px;
+  height: 200px;
+  border-radius: 180px;
+  left: 0px;
+  top: 190px;
+  position: absolute;
+  border:3px solid #000000;
+  clip-path: inset(130px 70px 0px 0px);
+  background-color: transparent;
+}
+
+#q2 {
+  width: 170px;
+  height: 200px;
+  border-radius: 180px;
+  left: 0px;
+  top: 190px;
+  position: absolute;
+  border:3px solid #000000;
+  clip-path: inset(0px 0px 110px 70px);
+  background-color: transparent;
+}
+
+#q3 {
+  width: 40px;
+  height: 3px;
+  background: #000000;
+  top: 190px;
+  left: 173px;
+  position: absolute;
+}
+
+#q4 {
+  width: 3px;
+  height: 90px;
+  background: #000000;
+  top: 190px;
+  left: 173px;
+  position: absolute;
+}
+
+#q5 {
+  width: 40px;
+  height: 3px;
+  background: #000000;
+  top: 567px;
+  left: 173px;
+  position: absolute;
+}
+
+#q6 {
+  width: 3px;
+  height: 78px;
+  background: #000000;
+  top: 492px;
+  left: 173px;
+  position: absolute;
 }
 
 .stage.s:hover #s1{
