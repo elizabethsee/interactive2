@@ -1,8 +1,7 @@
-body {
-  background-color: white;
-}
+<link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono" rel="stylesheet">
 
-.button {
+
+.buttoncolour {
   height: 30px;
   width: 70px;
   border-radius: 30px;
@@ -13,8 +12,20 @@ body {
   z-index: 2;
 }
 
+.buttonmonochrome {
+  height: 30px;
+  width: 70px;
+  border-radius: 30px;
+  position: absolute;
+  left: 90%;
+  top: 10%;
+  background: #333333;
+  z-index: 2;
+}
+
 p {
   padding: 5px;
+  font-family: 'IBM Plex Mono', monospace;
   color: #ffffff;
 }
 
@@ -28,7 +39,7 @@ p {
 }
 
 body {
-  background: #9600ff;
+  background: #333333;
 }
 
 .whitebg {
@@ -47,7 +58,7 @@ body {
   margin-left: -100px;
   margin-top: 300px;
   height: 1000px;
-  background: #333333;
+  /* background: #333333; */
   position: absolute;
 }
 
@@ -65,7 +76,7 @@ body {
 	width: 255px;
 	height: 570px;
 	margin: 20px;
-  background: #333333;
+  /* background: #333333; */
 	float: left;
   position: relative;
 }
@@ -74,7 +85,7 @@ body {
 	width: 450px;
 	height: 570px;
 	margin: 20px;
-	background: #333333;
+	/* background: #333333; */
 	float: left;
   position: relative;
 }
@@ -83,7 +94,7 @@ body {
 	width: 100px;
 	height: 570px;
 	margin: 20px;
-	background: #333333;
+	/* background: #333333; */
 	float: left;
   position: relative;
 }
@@ -2707,6 +2718,140 @@ body {
   position: absolute;
   transform: rotate(47deg);
 }
+
+.stage.zero:hover #zero1{
+  clip-path: inset(45px 0px 0px 110px);
+}
+
+.stage.zero:hover #zero2{
+  clip-path: inset(0px 110px 45px 0px);
+}
+
+.stage.zero:hover #zero3{
+  height: 200px;
+  top: 50px;
+  left: 125px;
+}
+
+.stage.zero:hover #zero4{
+  height: 180px;
+  top: 170px;
+  left: 96px;
+}
+
+#zero1 {
+  width: 220px;
+  height: 395px;
+  border-radius: 220px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  border:3px solid #ffffff;
+  clip-path: inset(0px 0px 350px 110px);
+  background-color: transparent;
+}
+
+#zero2 {
+  width: 220px;
+  height: 395px;
+  border-radius: 220px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  border:3px solid #ffffff;
+  clip-path: inset(350px 110px 0px 0px);
+  background-color: transparent;
+}
+
+#zero3 {
+  width: 3px;
+  height: 40px;
+  left: 155px;
+  top: 12px;
+  position: absolute;
+  transform: rotate(15deg);
+  background-color: #ffffff;
+}
+
+#zero4 {
+  width: 3px;
+  height: 40px;
+  left: 60px;
+  top: 345px;
+  position: absolute;
+  transform: rotate(15deg);
+  background-color: #ffffff;
+}
+
+.stagethin.one:hover #one1{
+  height: 0px;
+}
+
+.stagethin.one:hover #one2{
+  width: 0px;
+  left: 40px;
+}
+
+.stagethin.one:hover #one3{
+  top: 50px;
+  height: 295px;
+}
+
+.stagethin.one:hover #one4{
+  height: 0px;
+  left: 37px;
+  top: 0px;
+}
+
+.stagethin.one:hover #one5{
+  width: 0px;
+}
+
+#one1 {
+  width: 3px;
+  height: 50px;
+  left: 37px;
+  background: #ffffff;
+  top: 345px;
+  position: absolute;
+}
+
+#one2 {
+  width: 40px;
+  height: 3px;
+  left: 0px;
+  background: #ffffff;
+  top: 395px;
+  position: absolute;
+  }
+
+#one3 {
+  width: 3px;
+  height: 50px;
+  left: 37px;
+  background: #ffffff;
+  top: 0px;
+  position: absolute;
+}
+
+#one4 {
+  width: 3px;
+  height: 40px;
+  left: 25px;
+  background: #ffffff;
+  top: -4px;
+  position: absolute;
+  transform: rotate(40deg);
+}
+
+#one5 {
+  width: 40px;
+  height: 3px;
+  left: 40px;
+  background: #ffffff;
+  top: 395px;
+  position: absolute;
+  }
 
 .stagethin.fullstop:hover #fullstop1 {
   clip-path: inset(10px 0px 0px 9px);
