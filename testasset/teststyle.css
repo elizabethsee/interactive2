@@ -23,6 +23,19 @@
   z-index: 2;
 }
 
+a{
+  color: green;
+  text-decoration: none;
+}
+
+a:link {
+    color: #ffffff;
+}
+
+a:visited {
+  color: #ffffff;
+}
+
 p {
   padding: 5px;
   font-family: 'IBM Plex Mono', monospace;
@@ -39,6 +52,28 @@ p {
   margin-top: 70%;
   position: absolute;
   padding-top: 200px;
+  padding-bottom: 100px;
+}
+
+.showcase1 {
+  padding-left: 40%;
+  width: 1000px;
+  height: 571px;
+}
+
+.showcase2 {
+  padding-left: 2%;
+  padding-top:5%;
+  width: 1700px;
+  height: 201px;
+
+}
+
+.showcase3 {
+  padding-left: 7%;
+  width: 900px;
+  height: 201px;
+  padding-top: -500px;
 }
 
 body {
@@ -76,7 +111,7 @@ body {
 }
 
 .stage {
-	width: 255px;
+	width: 235px;
 	height: 570px;
 	margin: 20px;
   /* background: #333333; */
@@ -1934,7 +1969,7 @@ body {
 }
 
 #s1 {
-  width: 170px;
+  width: 180px;
   height: 120px;
   border-radius: 180px;
   left: 0px;
@@ -1946,7 +1981,7 @@ body {
 }
 
 #s2 {
-  width: 125px;
+  width: 135px;
   height: 80px;
   border-radius: 180px;
   left: 20px;
@@ -1958,7 +1993,7 @@ body {
 }
 
 #s3 {
-  width: 150px;
+  width: 160px;
   height: 110px;
   border-radius: 180px;
   left: 0px;
@@ -1970,7 +2005,7 @@ body {
 }
 
 #s4 {
-  width: 130px;
+  width: 140px;
   height: 82px;
   border-radius: 180px;
   left: 20px;
@@ -1986,7 +2021,7 @@ body {
   height: 45px;
   background: #ffffff;
   top: 195px;
-  left: 148px;
+  left: 158px;
   position: absolute;
 }
 
@@ -2854,7 +2889,537 @@ body {
   background: #ffffff;
   top: 395px;
   position: absolute;
+}
+
+.stage.two:hover #two1{
+  height: 0px;
+}
+
+.stage.two:hover #two2{
+  width: 80px;
+  left: 40px;
+}
+
+.stage.two:hover #two3{
+  top: 193px;
+  height: 190px;
+  left: 120px;
+}
+
+.stage.two:hover #two4{
+  clip-path: inset(0px -20px 30px 110px);
+}
+
+.stage.two:hover #two5{
+  width: 80px;
+  left: 100px;
+}
+
+#two1 {
+  width: 3px;
+  height: 40px;
+  background: #ffffff;
+  top: 358px;
+  left: 220px;
+  position: absolute;
+}
+
+#two2 {
+  width: 40px;
+  height: 3px;
+  background: #ffffff;
+  top: 395px;
+  left: 0px;
+  position: absolute;
+}
+
+#two3 {
+  width: 3px;
+  height: 50px;
+  background: #ffffff;
+  top: 353px;
+  left: 19px;
+  position: absolute;
+  transform: rotate(47deg);
+}
+
+#two4 {
+  width: 220px;
+  height: 250px;
+  border-radius: 220px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  border:3px solid #ffffff;
+  clip-path: inset(0px 110px 170px 0px);
+  background-color: transparent;
+}
+
+#two5 {
+  width: 40px;
+  height: 3px;
+  background: #ffffff;
+  top: 395px;
+  left: 180px;
+  position: absolute;
+}
+
+.stage.three:hover #three1{
+  clip-path: inset(0px -40px 40px 100px);
+}
+
+.stage.three:hover #three2{
+  clip-path: inset(40px -40px 0px 110px);
+}
+
+.stage.three:hover #three3{
+  clip-path: inset(100px 0px 40px 150px);
+}
+
+.stage.three:hover #three4{
+  clip-path: inset(40px -20px 0px 110px);
+}
+
+#three1 {
+  width: 190px;
+  height: 180px;
+  border-radius: 180px;
+  left: 15px;
+  top: 0px;
+  position: absolute;
+  border:3px solid #ffffff;
+  clip-path: inset(0px 90px 100px 0px);
+  background-color: transparent;
+}
+
+#three2 {
+  width: 220px;
+  height: 210px;
+  border-radius: 180px;
+  left: 0px;
+  top: 184px;
+  position: absolute;
+  border:3px solid #ffffff;
+  clip-path: inset(130px 110px 0px 0px);
+  background-color: transparent;
+}
+
+#three3 {
+  width: 190px;
+  height: 180px;
+  border-radius: 180px;
+  left: 15px;
+  top: 0px;
+  position: absolute;
+  border:3px solid #ffffff;
+  clip-path: inset(140px 0px 0px 95px);
+  background-color: transparent;
+}
+
+#three4 {
+  width: 220px;
+  height: 210px;
+  border-radius: 180px;
+  left: 0px;
+  top: 184px;
+  position: absolute;
+  border:3px solid #ffffff;
+  clip-path: inset(0px 0px 170px 110px);
+  background-color: transparent;
+}
+
+.stage.four:hover #four1{
+  height: 0px;
+}
+
+.stage.four:hover #four2{
+  width: 0px;
+  left: 150px;
+}
+
+.stage.four:hover #four3{
+  top: 50px;
+  height: 295px;
+}
+
+.stage.four:hover #four4{
+  height: 0px;
+  left: 143px;
+  top: 0px;
+}
+
+.stage.four:hover #four5{
+  width: 0px;
+}
+
+.stage.four:hover #four6{
+  width: 160px;
+  left: 40px;
+}
+
+.stage.four:hover #four7{
+  height: 170px;
+  left: 75px;
+  top: 15px;
+}
+
+#four1 {
+  width: 3px;
+  height: 50px;
+  left: 147px;
+  background: #ffffff;
+  top: 345px;
+  position: absolute;
+}
+
+#four2 {
+  width: 40px;
+  height: 3px;
+  left: 110px;
+  background: #ffffff;
+  top: 395px;
+  position: absolute;
   }
+
+#four3 {
+  width: 3px;
+  height: 50px;
+  left: 147px;
+  background: #ffffff;
+  top: 0px;
+  position: absolute;
+}
+
+#four4 {
+  width: 3px;
+  height: 40px;
+  left: 135px;
+  background: #ffffff;
+  top: -4px;
+  position: absolute;
+  transform: rotate(35deg);
+}
+
+#four5 {
+  width: 40px;
+  height: 3px;
+  left: 150px;
+  background: #ffffff;
+  top: 395px;
+  position: absolute;
+}
+
+#four6 {
+  width: 40px;
+  height: 3px;
+  left: 0px;
+  background: #ffffff;
+  top: 210px;
+  position: absolute;
+}
+
+#four7 {
+  width: 3px;
+  height: 40px;
+  left: 10px;
+  background: #ffffff;
+  top: 175px;
+  position: absolute;
+  transform: rotate(35deg);
+}
+
+.stage.five:hover #five1{
+  clip-path: inset(100px -20px 0px 105px);
+}
+
+.stage.five:hover #five2{
+  clip-path: inset(0px 50px 180px 0px);
+}
+
+.stage.five:hover #five3{
+  left: 33px;
+  width: 75px;
+}
+
+.stage.five:hover #five4{
+  height: 0px;
+  top: 40px;
+}
+
+.stage.five:hover #five5{
+  height: 175px;
+  top: 40px;
+  left: 18px;
+}
+
+#five1 {
+  width: 170px;
+  height: 220px;
+  border-radius: 180px;
+  left: 0px;
+  top: 170px;
+  position: absolute;
+  border:3px solid #ffffff;
+  clip-path: inset(170px 70px 0px 0px);
+  background-color: transparent;
+}
+
+#five2 {
+  width: 170px;
+  height: 220px;
+  border-radius: 180px;
+  left: 0px;
+  top: 170px;
+  position: absolute;
+  border:3px solid #ffffff;
+  clip-path: inset(0px 0px 130px 90px);
+  background-color: transparent;
+}
+
+#five3 {
+  width: 55px;
+  height: 3px;
+  left: 110px;
+  background: #ffffff;
+  top: 0px;
+  position: absolute;
+}
+
+#five4 {
+  width: 3px;
+  height: 40px;
+  left: 165px;
+  background: #ffffff;
+  top: 0px;
+  position: absolute;
+}
+
+#five5 {
+  width: 3px;
+  height: 40px;
+  left: 30px;
+  background: #ffffff;
+  top: 0px;
+  position: absolute;
+  transform: rotate(5deg);
+}
+
+.stage.six:hover #six1{
+  clip-path: inset(50px -30px 0px 160px);
+}
+
+.stage.six:hover #six2{
+  clip-path: inset(0px 110px 130px 0px);
+}
+
+.stage.six:hover #six3{
+  clip-path: inset(0px 150px 50px -30px);
+}
+
+#six1 {
+  width: 220px;
+  height: 220px;
+  border-radius: 180px;
+  left: 0px;
+  top: 175px;
+  position: absolute;
+  border:3px solid #ffffff;
+  clip-path: inset(170px 70px 0px 0px);
+  background-color: transparent;
+}
+
+#six2 {
+  width: 220px;
+  height: 395px;
+  border-radius: 220px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  border:3px solid #ffffff;
+  clip-path: inset(0px 0px 350px 110px);
+  background-color: transparent;
+}
+
+#six3 {
+  width: 220px;
+  height: 220px;
+  border-radius: 180px;
+  left: 0px;
+  top: 175px;
+  position: absolute;
+  border:3px solid #ffffff;
+  clip-path: inset(0px 0px 170px 70px);
+  background-color: transparent;
+}
+
+.stage.seven:hover #seven1{
+  width: 103px;
+  left: 60px;
+}
+
+.stage.seven:hover #seven2{
+  height: 0px;
+  top: 40px;
+}
+
+.stage.seven:hover #seven3{
+  width: 0px;
+}
+
+.stage.seven:hover #seven4{
+  top: -10px;
+  left: 100px;
+  height: 360px;
+}
+
+#seven1 {
+  width: 60px;
+  height: 3px;
+  background: #ffffff;
+  top: 0px;
+  left: 0px;
+  position: absolute;
+}
+
+#seven2 {
+  width: 3px;
+  height: 40px;
+  background: #ffffff;
+  top: 0px;
+  left: 0px;
+  position: absolute;
+}
+
+#seven3 {
+  width: 40px;
+  height: 3px;
+  background: #ffffff;
+  top: 395px;
+  left: 0px;
+  position: absolute;
+}
+
+#seven4 {
+  width: 3px;
+  height: 60px;
+  background: #ffffff;
+  top: 338px;
+  left: 28px;
+  position: absolute;
+  transform: rotate(20deg);
+}
+
+.stage.eight:hover #eight1{
+  clip-path: inset(40px 0px 0px 130px);
+}
+
+.stage.eight:hover #eight2{
+  clip-path: inset(20px 0px 60px 80px);
+}
+
+.stage.eight:hover #eight3{
+  clip-path: inset(0px 110px 30px -30px);
+}
+
+.stage.eight:hover #eight4{
+  clip-path: inset(30px 140px 0px -30px);
+}
+
+#eight1 {
+  width: 190px;
+  height: 180px;
+  border-radius: 180px;
+  left: 15px;
+  top: 0px;
+  position: absolute;
+  border:3px solid #ffffff;
+  clip-path: inset(0px 0px 140px 90px);
+  background-color: transparent;
+}
+
+#eight2 {
+  width: 220px;
+  height: 210px;
+  border-radius: 180px;
+  left: 0px;
+  top: 184px;
+  position: absolute;
+  border:3px solid #ffffff;
+  clip-path: inset(160px 0px 0px 80px);
+  background-color: transparent;
+}
+
+#eight3 {
+  width: 190px;
+  height: 180px;
+  border-radius: 180px;
+  left: 15px;
+  top: 0px;
+  position: absolute;
+  border:3px solid #ffffff;
+  clip-path: inset(140px 50px 0px 30px);
+  background-color: transparent;
+}
+
+#eight4 {
+  width: 220px;
+  height: 210px;
+  border-radius: 180px;
+  left: 0px;
+  top: 184px;
+  position: absolute;
+  border:3px solid #ffffff;
+  clip-path: inset(0px 40px 170px 40px);
+  background-color: transparent;
+}
+
+.stage.nine:hover #nine1{
+  clip-path: inset(50px -30px 0px 160px);
+}
+
+.stage.nine:hover #nine2{
+  clip-path: inset(100px 0px 0px 110px);
+}
+
+.stage.nine:hover #nine3{
+  clip-path: inset(0px 150px 50px -30px);
+}
+
+#nine1 {
+  width: 220px;
+  height: 220px;
+  border-radius: 180px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  border:3px solid #ffffff;
+  clip-path: inset(170px 70px 0px 0px);
+  background-color: transparent;
+}
+
+#nine2 {
+  width: 220px;
+  height: 395px;
+  border-radius: 220px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  border:3px solid #ffffff;
+  clip-path: inset(350px 110px 0px 0px);
+  background-color: transparent;
+}
+
+#nine3 {
+  width: 220px;
+  height: 220px;
+  border-radius: 180px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  border:3px solid #ffffff;
+  clip-path: inset(0px 0px 170px 70px);
+  background-color: transparent;
+}
 
 .stagethin.fullstop:hover #fullstop1 {
   clip-path: inset(10px 0px 0px 9px);
@@ -2886,4 +3451,382 @@ body {
   border:3px solid #ffffff;
   background-color: transparent;
   clip-path: inset(0px 7px 0px 0px);
+}
+
+.stagethin.comma:hover #comma1 {
+  clip-path: inset(10px 0px 0px 9px);
+}
+
+.stagethin.comma:hover #comma2 {
+  clip-path: inset(7px 9px 0px 7px);
+}
+
+.stagethin.comma:hover #comma3 {
+  clip-path: inset(7px 7px 0px 0px);
+}
+
+#comma1 {
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  left: 0px;
+  top: 395px;
+  position: absolute;
+  border:3px solid #ffffff;
+  background-color: transparent;
+  clip-path: inset(0px 0px 7px 0px);
+}
+
+#comma2 {
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  left: 0px;
+  top: 395px;
+  position: absolute;
+  border:3px solid #ffffff;
+  background-color: transparent;
+  clip-path: inset(0px 7px 0px 0px);
+}
+
+#comma3 {
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  left: 0px;
+  top: 405px;
+  position: absolute;
+  border:3px solid #ffffff;
+  background-color: transparent;
+  clip-path: inset(7px 0px 0px 7px);
+}
+
+.stagethin.rightquotation:hover #rightquotation1 {
+  clip-path: inset(10px 0px 0px 9px);
+}
+
+.stagethin.rightquotation:hover #rightquotation2 {
+  clip-path: inset(7px 9px 0px 7px);
+}
+
+.stagethin.rightquotation:hover #rightquotation3 {
+  clip-path: inset(7px 7px 0px 0px);
+}
+
+.stagethin.rightquotation:hover #rightquotation4 {
+  clip-path: inset(10px 0px 0px 9px);
+}
+
+.stagethin.rightquotation:hover #rightquotation5 {
+  clip-path: inset(7px 9px 0px 7px);
+}
+
+.stagethin.rightquotation:hover #rightquotation6 {
+  clip-path: inset(7px 7px 0px 0px);
+}
+
+#rightquotation1 {
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  border:3px solid #ffffff;
+  background-color: transparent;
+  clip-path: inset(0px 0px 7px 0px);
+}
+
+#rightquotation2 {
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  border:3px solid #ffffff;
+  background-color: transparent;
+  clip-path: inset(0px 7px 0px 0px);
+}
+
+#rightquotation3 {
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  left: 0px;
+  top: 10px;
+  position: absolute;
+  border:3px solid #ffffff;
+  background-color: transparent;
+  clip-path: inset(7px 0px 0px 7px);
+}
+
+#rightquotation4 {
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  left: 30px;
+  top: 0px;
+  position: absolute;
+  border:3px solid #ffffff;
+  background-color: transparent;
+  clip-path: inset(0px 0px 7px 0px);
+}
+
+#rightquotation5 {
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  left: 30px;
+  top: 0px;
+  position: absolute;
+  border:3px solid #ffffff;
+  background-color: transparent;
+  clip-path: inset(0px 7px 0px 0px);
+}
+
+#rightquotation6 {
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  left: 30px;
+  top: 10px;
+  position: absolute;
+  border:3px solid #ffffff;
+  background-color: transparent;
+  clip-path: inset(7px 0px 0px 7px);
+}
+
+.stagethin.leftquotation:hover #leftquotation1 {
+  clip-path: inset(10px 9px 0px 0px);
+}
+
+.stagethin.leftquotation:hover #leftquotation2 {
+  clip-path: inset(7px 9px 0px 7px);
+}
+
+.stagethin.leftquotation:hover #leftquotation3 {
+  clip-path: inset(7px 0px 0px 7px);
+}
+
+.stagethin.leftquotation:hover #leftquotation4 {
+  clip-path: inset(10px 9px 0px 0px);
+}
+
+.stagethin.leftquotation:hover #leftquotation5 {
+  clip-path: inset(7px 9px 0px 7px);
+}
+
+.stagethin.leftquotation:hover #leftquotation6 {
+  clip-path: inset(7px 0px 0px 7px);
+}
+
+#leftquotation1 {
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  border:3px solid #ffffff;
+  background-color: transparent;
+  clip-path: inset(0px 0px 7px 0px);
+}
+
+#leftquotation2 {
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  border:3px solid #ffffff;
+  background-color: transparent;
+  clip-path: inset(0px 0px 0px 7px);
+}
+
+#leftquotation3 {
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  left: 0px;
+  top: 10px;
+  position: absolute;
+  border:3px solid #ffffff;
+  background-color: transparent;
+  clip-path: inset(7px 7px 0px 0px);
+}
+
+#leftquotation4 {
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  left: 30px;
+  top: 0px;
+  position: absolute;
+  border:3px solid #ffffff;
+  background-color: transparent;
+  clip-path: inset(0px 0px 7px 0px);
+}
+
+#leftquotation5 {
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  left: 30px;
+  top: 0px;
+  position: absolute;
+  border:3px solid #ffffff;
+  background-color: transparent;
+  clip-path: inset(0px 0px 0px 7px);
+}
+
+#leftquotation6 {
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  left: 30px;
+  top: 10px;
+  position: absolute;
+  border:3px solid #ffffff;
+  background-color: transparent;
+  clip-path: inset(7px 7px 0px 0px);
+}
+
+.stagethin.point:hover #point1 {
+  clip-path: inset(10px 0px 0px 9px);
+}
+
+.stagethin.point:hover #point2 {
+  clip-path: inset(7px 9px 0px 7px);
+}
+
+.stagethin.point:hover #point3 {
+  height: 130px;
+  top: 50px;
+}
+
+.stagethin.point:hover #point4 {
+  height: 80px;
+  top: 170px;
+}
+
+#point1 {
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  left: 0px;
+  top: 395px;
+  position: absolute;
+  border:3px solid #ffffff;
+  background-color: transparent;
+  clip-path: inset(0px 0px 7px 0px);
+}
+
+#point2 {
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  left: 0px;
+  top: 395px;
+  position: absolute;
+  border:3px solid #ffffff;
+  background-color: transparent;
+  clip-path: inset(0px 7px 0px 0px);
+}
+
+#point3 {
+  width: 3px;
+  height: 50px;
+  background: #ffffff;
+  top: 0px;
+  left: 4px;
+  position: absolute;
+}
+
+#point4 {
+  width: 3px;
+  height: 80px;
+  background: #ffffff;
+  top: 250px;
+  left: 4px;
+  position: absolute;
+}
+
+.stage.ques:hover #ques1 {
+  clip-path: inset(10px 0px 0px 9px);
+}
+
+.stage.ques:hover #ques2 {
+  clip-path: inset(7px 9px 0px 7px);
+}
+
+.stage.ques:hover #ques3 {
+  height: 0px;
+  top: 330px;
+}
+
+.stage.ques:hover #ques4 {
+  clip-path: inset(0px 0px 25px 60px);
+}
+
+.stage.ques:hover #ques5 {
+  clip-path: inset(150px 30px 0px 160px);
+}
+
+#ques1 {
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  left: 84px;
+  top: 395px;
+  position: absolute;
+  border:3px solid #ffffff;
+  background-color: transparent;
+  clip-path: inset(0px 0px 7px 0px);
+}
+
+#ques2 {
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  left: 84px;
+  top: 395px;
+  position: absolute;
+  border:3px solid #ffffff;
+  background-color: transparent;
+  clip-path: inset(0px 7px 0px 0px);
+}
+
+#ques3 {
+  width: 3px;
+  height: 127px;
+  background: #ffffff;
+  top: 203px;
+  left: 87px;
+  position: absolute;
+}
+
+#ques4 {
+  width: 180px;
+  height: 200px;
+  border-radius: 180px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  border:3px solid #ffffff;
+  clip-path: inset(0px 100px 110px 0px);
+  background-color: transparent;
+}
+
+#ques5 {
+  width: 180px;
+  height: 200px;
+  border-radius: 180px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  border:3px solid #ffffff;
+  clip-path: inset(150px 30px 0px 90px);
+  background-color: transparent;
 }
