@@ -80,8 +80,8 @@ p {
 .alphabet {
   width: 1550px;
   padding-left: 50px;
-  padding-top: 3000px;
-  /* position: absolute; */
+  margin-top: 3000px;
+  position: absolute;
 }
 
 body {
