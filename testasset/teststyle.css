@@ -81,8 +81,7 @@ p {
   width: 1550px;
   padding-left: 50px;
   padding-top: 3000px;
-  position: absolute;
-  z-index: -1;
+  /* position: absolute; */
 }
 
 body {
