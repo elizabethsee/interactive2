@@ -17,7 +17,7 @@ $(document).ready(function(){
 
 		// change div with the id "element"s CSS when you move your mouse
 		$('body').css({
-			'background-color' : 'rgb('+ xPos/9 + ', ' + yPos/9 + ', ' + (xPos*yPos)*8 + ')',
+			'background-color' : 'rgb('+ xPos/9 + ', ' + yPos/20 + ', ' + (xPos*yPos)*8 + ')',
 		});
 	});
 

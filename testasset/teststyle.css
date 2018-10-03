@@ -24,7 +24,6 @@
 }
 
 a{
-  color: green;
   text-decoration: none;
 }
 
@@ -46,9 +45,9 @@ p {
 }
 
 .colourblock {
-  width: 120%;
+  width: 100%;
   margin-left: 30px;
-  height: 1000px;
+  height: 200px;
   margin-top: 70%;
   position: absolute;
   padding-top: 200px;
@@ -56,8 +55,8 @@ p {
 }
 
 .showcase1 {
-  padding-left: 40%;
-  width: 1000px;
+  padding-left: 30%;
+  width: 1700px;
   height: 571px;
 }
 
@@ -66,18 +65,27 @@ p {
   padding-top:5%;
   width: 1700px;
   height: 201px;
+  padding-right: 20%;
 
 }
 
-.showcase3 {
-  padding-left: 7%;
-  width: 900px;
+/* .showcase3 {
+  padding-left: 3%;
+  padding-top:400px;
+  width: 1700px;
   height: 201px;
-  padding-top: -500px;
+
+} */
+
+.alphabet {
+  width: 1550px;
+  padding-left: 50px;
+  padding-top: 3000px;
 }
 
 body {
   background: #333333;
+  width: 100%;
 }
 
 .whitebg {
@@ -92,7 +100,7 @@ body {
 }
 
 .bwcolour {
-  width: 120%;
+  width: 101%;
   margin-left: -100px;
   margin-top: 300px;
   height: 1000px;
@@ -106,7 +114,7 @@ body {
   margin: auto;
   margin-top: 10%;
   position: relative;
-  padding-left: 7%;
+  padding-left: 12%;
   padding-right: 10%;
 }
 
