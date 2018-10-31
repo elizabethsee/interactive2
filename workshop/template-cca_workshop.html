@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Clickems</title>
+  <link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <style>
+    html, body, div, p {margin:0; padding:0;}
+    .box {width: 100px; height: 100px; padding: 1em; position:absolute; background-color:white; border:solid 1px;}
+    .box1 {top:30%; left:5%; z-index:10;}
+    .box2 {top:30%; left:25%; z-index:20;}
+    .box3 {top:30%; left:45%; z-index:30;}
+    .box4 {top:30%; left:65%; z-index:40;}
+    .box5 {top:30%; left:85%; z-index:50;}
+
+    .test {
+      background: blue;
+    }
+
+    .fish {
+      color: orange;
+      background: orange;
+      z-index: 1;
+    }
+
+    .fishmove:hover {
+      color: orange;
+      background: orange;
+      z-index: 1;
+      animation: exit .2s;
+      animation-iteration-count: infinite;
+    }
+
+    @keyframes exit {
+        0% { transform: translate(0px, 0px) rotate(0deg); }
+        100% { transform: translate(-500px, 0px) rotate(0deg); }
+    }
+
+    .shark {
+      color: grey;
+      background: grey;
+      height: 50vh;
+      width: 30vw;
+      z-index: 0;
+    }
+
+
+    .ocean {
+      width: 100vw;
+      height: 10vh;
+      background: blue;
+      opacity: 10%;
+      animation: rise 7s;
+      top: 99%;
+      z-index: -1;
+      animation-iteration-count: 1;
+    }
+
+    @keyframes rise {
+      0% { transform: scale(2); }
+      20% { transform: scale(5); }
+      40% { transform: scale(10); }
+      60% { transform: scale(15); }
+      80% { transform: scale(17); }
+      100% { transform: scale(20); }
+    }
+
+
+</style>
+</head>
+<body>
+    <div class="draggable1 resizable box box1">
+        <p>01</p><p style="color:white;">fish</p>
+    </div>
+    <div class="draggable2 resizable box box2">
+        <p>02 Click for ocean</p>
+    </div>
+    <div class="draggable3 resizable box box3">
+        <p>03</p><p style="color:white;">shark</p>
+    </div>
+    <!-- <div class="ocean"></div> -->
+    <!-- <div class="draggable4 resizable box box4">
+        <p>box4</p>
+    </div>
+    <div class="draggable5 resizable box box5">
+        <p>box5</p>
+    </div> -->
+    <!--jquery-->
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script>
+        $( function() {
+            $( ".draggable" ).draggable();
+        } );
+
+        $( function() {
+            $( ".resizable" ).resizable();
+        } );
+
+        // $('.box1').click(function() {
+        //   $(this).toggleClass('test');
+        // });
+
+        $('.box3').click(function() {
+          $(this).toggleClass('shark');
+                  });
+
+        $('.box1').click(function() {
+          $(this).toggleClass('fish');
+        });
+
+        $('.box2').click(function() {
+          $(this).addClass('ocean');
+        });
+
+        $('.box3').click(function() {
+          $('.box1').toggleClass('fishmove');
+
+        });
+        $('.box3').mousemove(function(e){
+
+      		// update mouse x and y position
+      		var xPos = e.pageX-50;
+      		var yPos = e.pageY-50;
+
+      		$(this).css({
+      			'position' : 'absolute',
+      			'top' :  yPos+'px',
+      			'left' :  xPos+'px',
+      		});
+      	});
+    </script>
+</body>
+</html>
