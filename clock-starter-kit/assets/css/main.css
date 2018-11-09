@@ -10,8 +10,8 @@ body {
   	min-height: 100vh;
 }
 
-.noon {
-	background: red;
+.sunset {
+	background: #002048;
 }
 
 #clock {
@@ -31,6 +31,18 @@ body {
 	height: 250px;
 	border-radius: 250px;
 	background-image: radial-gradient(closest-side at 50% 30%, #ff9614 60%, #ffa638);
+	display: flex;
+	align-items: center;
+		justify-content: center;
+		z-index: -1;
+		/* position: absolute; */
+}
+
+#secnight {
+	width: 250px;
+	height: 250px;
+	border-radius: 250px;
+	background-image: radial-gradient(closest-side at 50% 30%, red 60%, pink);
 	display: flex;
 	align-items: center;
 		justify-content: center;

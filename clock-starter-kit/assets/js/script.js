@@ -28,11 +28,13 @@ $(document).ready(function(){
 
         $('#hrs').css('transform', 'rotate('+ h * 30 +'deg');
         // detect a specific time
-        // if(m == 00){
-        // 	$('body').addClass('noon');
-        // } else {
-        // 	$('body').removeClass('noon');
-        // }
+        if(h == 19,6){
+        	$('body').addClass('sunset');
+          $('sec').attr('id', 'secnight');
+        } else {
+        	$('body').removeClass('sunset');
+          $('secnight').attr('id', 'sec');
+        }
     }
 
     // call getTime every 1 second
