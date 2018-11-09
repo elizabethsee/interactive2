@@ -11,7 +11,7 @@ body {
 }
 
 .sunset {
-	background: #002048;
+	background: #00233c;
 }
 
 #clock {
@@ -38,11 +38,11 @@ body {
 		/* position: absolute; */
 }
 
-#secnight {
+#sec1 {
 	width: 250px;
 	height: 250px;
 	border-radius: 250px;
-	background-image: radial-gradient(closest-side at 50% 30%, red 60%, pink);
+	background-image: radial-gradient(closest-side at 50% 30%, #fff03b 60%, #fff36d);
 	display: flex;
 	align-items: center;
 		justify-content: center;
@@ -75,6 +75,18 @@ body {
 		/* position: absolute; */
 }
 
+#min1 {
+	width: 350px;
+	height: 350px;
+	border-radius: 250px;
+	background-image: radial-gradient(closest-side at 50% 25%, #fff041 30%, #fff79b);
+	display: flex;
+	align-items: center;
+		justify-content: center;
+		z-index: -1;
+		/* position: absolute; */
+}
+
 #anim2 {
 	animation: minz 5s;
 	animation-iteration-count: infinite;
@@ -95,6 +107,18 @@ body {
 	height: 450px;
 	border-radius: 250px;
 	background-image: radial-gradient(closest-side at 50% 20%, #ffb356 30%, #ffd9ab);
+	display: flex;
+	align-items: center;
+		justify-content: center;
+		z-index: -1;
+		/* position: absolute; */
+}
+
+#hrs1 {
+	width: 450px;
+	height: 450px;
+	border-radius: 250px;
+	background-image: radial-gradient(closest-side at 50% 20%, #fff476 30%, #fffabe);
 	display: flex;
 	align-items: center;
 		justify-content: center;

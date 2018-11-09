@@ -27,13 +27,23 @@ $(document).ready(function(){
         $('#min').css('transform', 'rotate('+ m * 6 +'deg');
 
         $('#hrs').css('transform', 'rotate('+ h * 30 +'deg');
+
+        $('#sec1').css('transform', 'rotate('+ s * 6 +'deg');
+
+        $('#min1').css('transform', 'rotate('+ m * 6 +'deg');
+
+        $('#hrs1').css('transform', 'rotate('+ h * 30 +'deg');
         // detect a specific time
         if(h == 19,6){
         	$('body').addClass('sunset');
-          $('sec').attr('id', 'secnight');
+          $('#sec').attr('id','sec1');
+          $('#min').attr('id','min1');
+          $('#hrs').attr('id','hrs1');
         } else {
         	$('body').removeClass('sunset');
-          $('secnight').attr('id', 'sec');
+          $('#sec1').attr('id','sec');
+          $('#min1').attr('id','min');
+          $('#hrs1').attr('id','hrs');
         }
     }
 
