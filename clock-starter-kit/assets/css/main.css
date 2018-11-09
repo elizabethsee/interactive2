@@ -1,0 +1,106 @@
+body {
+	background: #ffefdb;
+	color: white;
+	font-family: monaco;
+
+	display: flex;
+	align-items: center;
+  	justify-content: center;
+
+  	min-height: 100vh;
+}
+
+.noon {
+	background: red;
+}
+
+#clock {
+	border: 1px solid white;
+	width: 500px;
+	height: 500px;
+
+	display: flex;
+	align-items: center;
+  	justify-content: center;
+
+
+}
+
+#sec {
+	width: 250px;
+	height: 250px;
+	border-radius: 250px;
+	background-image: radial-gradient(closest-side at 50% 30%, #ff9614 60%, #ffa638);
+	display: flex;
+	align-items: center;
+		justify-content: center;
+		z-index: -1;
+		/* position: absolute; */
+}
+
+#anim1 {
+	animation: secondz 5s;
+	animation-iteration-count: infinite;
+	position: absolute;
+	animation-timing-function: ease;
+}
+
+@keyframes secondz {
+	0% {transform: translate(0px, 0px)}
+	50% {transform: translate(0px, 15px)}
+	100% {transform: translate(0px, 0px)}
+}
+
+#min {
+	width: 350px;
+	height: 350px;
+	border-radius: 250px;
+	background-image: radial-gradient(closest-side at 50% 25%, #ff9e26 30%, #ffc379);
+	display: flex;
+	align-items: center;
+		justify-content: center;
+		z-index: -1;
+		/* position: absolute; */
+}
+
+#anim2 {
+	animation: minz 5s;
+	animation-iteration-count: infinite;
+	position: absolute;
+	animation-timing-function: ease;
+	animation-delay: .5s;
+}
+
+@keyframes minz {
+	0% {transform: translate(0px, 0px)}
+	50% {transform: translate(0px, 15px)}
+	100% {transform: translate(0px, 0px)}
+
+}
+
+#hrs {
+	width: 450px;
+	height: 450px;
+	border-radius: 250px;
+	background-image: radial-gradient(closest-side at 50% 20%, #ffb356 30%, #ffd9ab);
+	display: flex;
+	align-items: center;
+		justify-content: center;
+		z-index: -1;
+		/* position: absolute; */
+}
+
+#anim3 {
+	animation: hrz 5s;
+	animation-iteration-count: infinite;
+	/* position: absolute; */
+	animation-timing-function: ease;
+	animation-delay: 1s;
+}
+
+@keyframes hrz {
+	0% {transform: translate(0px, 0px)}
+	50% {transform: translate(0px, 15px)}
+	100% {transform: translate(0px, 0px)}
+
+}
