@@ -42,7 +42,7 @@ body {
 	width: 250px;
 	height: 250px;
 	border-radius: 250px;
-	background-image: radial-gradient(closest-side at 50% 30%, #fff03b 60%, #fff36d);
+	background-image: radial-gradient(closest-side at 50% 30%, #fff79f 60%, #fffabe);
 	display: flex;
 	align-items: center;
 		justify-content: center;
@@ -118,7 +118,7 @@ body {
 	width: 450px;
 	height: 450px;
 	border-radius: 250px;
-	background-image: radial-gradient(closest-side at 50% 20%, #fff476 30%, #fffabe);
+	background-image: radial-gradient(closest-side at 50% 20%, #ffec05 30%, #fff36d);
 	display: flex;
 	align-items: center;
 		justify-content: center;
