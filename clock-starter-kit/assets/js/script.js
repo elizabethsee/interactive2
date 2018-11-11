@@ -34,7 +34,7 @@ $(document).ready(function(){
 
         $('#hrs1').css('transform', 'rotate('+ h * 30 +'deg');
         // detect a specific time
-        if(h == 19,6){
+        if(7 < h < 19){
         	$('body').addClass('sunset');
           $('#sec').attr('id','sec1');
           $('#min').attr('id','min1');
