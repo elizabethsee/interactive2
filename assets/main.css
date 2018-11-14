@@ -1,43 +1,42 @@
   @import url("https://use.typekit.net/vxg0frn.css");
   @import url('https://fonts.googleapis.com/css?family=Chango|Fredoka+One');
+  @import url('https://fonts.googleapis.com/css?family=Space+Mono:400,700');
 
 h1 {
-  font-size: 45px;
+  font-size: 35px;
   font-weight: 700;
-  font-family: "sofia-pro-soft";
-  color: #ffffff;
+  font-family: 'Space Mono', monospace;
+  color: blue;
 }
 
 h2 {
   font-size: 25px;
   font-weight: 400;
-  font-family: "sofia-pro-soft";
-  color: #000000;
+  font-family: 'Space Mono', monospace;
+  color: blue;
 }
 
 h3 {
-  font-family: 'Chango', cursive;
+  font-family: 'Space Mono', monospace;
   font-size: 65px;
   transform: rotate(90deg);
-  float: right;
-  padding-bottom: 37%;
-  color: #f1d9cf;
+  color: blue;
 }
 
 p {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 300;
-  font-family: "sofia-pro-soft";
-  color: #000000;
+  font-family: 'Space Mono', monospace;
+  color: blue;
 }
 
 body {
   background-color: #ffe9e4;
-  max-width: 100%;
+  max-height: 100vh;
 }
 
 a {
-  color: #000000;
+  color: blue;
 }
 
 .stage {
@@ -84,4 +83,13 @@ a {
 .text {
   max-width: 833px;
   min-width: 400px;
+}
+
+.fixed {
+  position: absolute;
+  float: right;
+  margin-left: 45%;
+  top: 900px;
+  width: 100vw;
+  height: 100vh;
 }
