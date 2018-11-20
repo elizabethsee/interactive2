@@ -29,6 +29,24 @@ h2 {
   font-weight: 400;
   color: #ffffff;
   font-size: 30px;
+  /* border-bottom: 3px solid #ffffff; */
+}
+
+ p {
+   font-family: 'Lato', sans-serif;
+   font-weight: 400;
+   color: #ffffff;
+   font-size: 20px;
+ }
+
+.about {
+  margin-left: 39%;
+  margin-right: 39%;
+  margin-top: 3%;
+  width: 400px;
+  position: absolute;
+  z-index: 1;
+  text-align: left;
 }
 
 .overlay {
@@ -62,4 +80,20 @@ h2 {
   height: 50px;
   top: 95%;
   z-index: 1;
+}
+
+#expandmenu {
+  position: absolute;
+  width: 30px;
+  height: 150px;
+  top: 95%;
+  z-index: 1;
+}
+
+#menu2 {
+  width: 30px;
+  height: 5px;
+  border-radius: 15px;
+  background: #ffffff;
+  margin: 5px;
 }
