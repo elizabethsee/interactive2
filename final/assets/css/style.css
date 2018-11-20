@@ -9,7 +9,7 @@ body {
   height: 100vh;
   float: left;
   position: relative;
-  z-index: 0;
+  z-index: -1;
   top: -10px;
 }
 
@@ -37,6 +37,22 @@ h2 {
    font-weight: 400;
    color: #ffffff;
    font-size: 20px;
+ }
+
+ a {
+   text-decoration: none;
+ }
+
+ a::before {
+   color: #ffffff;
+ }
+
+ a::after {
+   color: #ffffff;
+ }
+
+ a:active {
+   color: #ffffff;
  }
 
 .about {
@@ -72,28 +88,62 @@ h2 {
   border-radius: 5px;
   background: #ffffff;
   margin: 5px;
+  z-index: 1;
+}
+
+/* #menu:active {
+  width: 30px;
+  height: 5px;
+  border-radius: 5px;
+  background: #ffffff;
+  margin: 5px;
+  z-index: 1;
+} */
+
+#menu2 {
+  width: 30px;
+  height: 5px;
+  border-radius: 5px;
+  background: blue;
+  margin: 5px;
+  z-index: 1;
+}
+
+#menu3 {
+  width: 30px;
+  height: 5px;
+  border-radius: 5px;
+  background: #ffffff;
+  margin: 5px;
+  z-index: 1;
+}
+
+@keyframes menu {
+  0% {transform: translate(0px; 0px);}
+  100% {transform: translate(10px; 0px);}
 }
 
 #contractmenu {
   position: absolute;
   width: 30px;
   height: 50px;
-  top: 95%;
+  top: 5%;
   z-index: 1;
 }
 
-#expandmenu {
+.expandmenu {
+  background: red;
   position: absolute;
   width: 30px;
-  height: 150px;
-  top: 95%;
+  height: 500px;
+  top: 70%;
   z-index: 1;
 }
 
-#menu2 {
+/* .menu2 {
   width: 30px;
   height: 5px;
-  border-radius: 15px;
-  background: #ffffff;
+  border-radius: 5px;
+  background: blue;
   margin: 5px;
-}
+} */
