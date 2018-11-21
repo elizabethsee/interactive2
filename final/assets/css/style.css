@@ -96,6 +96,16 @@ h4 {
   margin-right: 85px;
 }
 
+h5 {
+  font-family: adobe-garamond-pro, serif;
+  font-weight: 400;
+  color: #3a3a3a;
+  font-size: 25px;
+  letter-spacing: 1px;
+  margin-top: 35px;
+  text-align: left;
+}
+
  p {
    font-family: adobe-garamond-pro, serif;
    font-weight: 400;
@@ -196,10 +206,12 @@ h4 {
   z-index: 1;
 }
 
-/* .menu2 {
-  width: 30px;
-  height: 5px;
-  border-radius: 5px;
-  background: blue;
-  margin: 5px;
-} */
+.workwords {
+  color: #3a3a3a;
+}
+
+.untitledwork {
+  width: 400px;
+  height: 600px;
+  margin-left: 100px;
+}
