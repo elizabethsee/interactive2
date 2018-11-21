@@ -48,7 +48,7 @@ body {
 
 .home {
   position: absolute;
-  z-index: 3;
+  z-index: 2;
   width: 100px;
   height: 100px;
   margin-left: 91%;
