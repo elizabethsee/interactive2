@@ -14,6 +14,17 @@ body {
   margin-left: -10px;
 }
 
+/* #sections1:hover {
+  width: 33vw;
+  height: 100vh;
+  float: left;
+  position: relative;
+  z-index: -1;
+  top: -10px;
+  margin-left: -10px;
+  background: red;
+} */
+
 #sections1 {
   width: 33vw;
   height: 300px;
@@ -22,6 +33,17 @@ body {
   z-index: 1;
   top: -10px;
   margin-left: -10px;
+}
+
+.workbox {
+  width: 33vw;
+  height: 1000px;
+  z-index: 1;
+}
+
+.workbox:hover {
+  transition: all 500ms ease;
+  padding-top: 450px;
 }
 
 img {
@@ -53,6 +75,16 @@ h3 {
   margin-top: 35px;
   text-align: center;
 }
+
+/* h3:hover {
+  font-family: proxima-nova, sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 25px;
+  letter-spacing: 1px;
+  margin-top: 35px;
+  text-align: center;
+} */
 
 h4 {
   font-family: proxima-nova, sans-serif;
