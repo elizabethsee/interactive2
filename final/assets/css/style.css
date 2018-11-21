@@ -41,17 +41,6 @@ h2 {
 
  a {
    text-decoration: none;
- }
-
- a::before {
-   color: #ffffff;
- }
-
- a::after {
-   color: #ffffff;
- }
-
- a:active {
    color: #ffffff;
  }
 
@@ -127,7 +116,7 @@ h2 {
   position: absolute;
   width: 30px;
   height: 50px;
-  top: 5%;
+  top: 95%;
   z-index: 1;
 }
 
