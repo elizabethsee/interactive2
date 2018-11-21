@@ -14,6 +14,16 @@ body {
   margin-left: -10px;
 }
 
+#sections1 {
+  width: 33vw;
+  height: 300px;
+  float: left;
+  position: absolute;
+  z-index: 1;
+  top: -10px;
+  margin-left: -10px;
+}
+
 img {
   height: 100vh;
 }
@@ -32,7 +42,6 @@ h2 {
   color: #ffffff;
   font-size: 25px;
   letter-spacing: 1px;
-  /* border-bottom: 3px solid #ffffff; */
 }
 
 h3 {
@@ -41,9 +50,18 @@ h3 {
   color: #ffffff;
   font-size: 16px;
   letter-spacing: 1px;
+  margin-top: 35px;
+  text-align: center;
+}
+
+h4 {
+  font-family: proxima-nova, sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 1px;
   float: left;
   margin-right: 85px;
-  /* border-bottom: 3px solid #ffffff; */
 }
 
  p {
