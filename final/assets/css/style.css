@@ -5,12 +5,13 @@ body {
 }
 
 .sections {
-  width: 33%;
+  width: 33vw;
   height: 100vh;
   float: left;
   position: relative;
   z-index: -1;
   top: -10px;
+  margin-left: -10px;
 }
 
 img {
@@ -47,8 +48,8 @@ h2 {
  }
 
 .about {
-  margin-left: 39%;
-  margin-right: 39%;
+  margin-left: 63%;
+  margin-right: 10%;
   margin-top: 3%;
   width: 400px;
   position: absolute;
@@ -61,8 +62,9 @@ h2 {
   z-index: 1;
   width: 100vw;
   height: 300px;
-  text-align: center;
+  text-align: left;
   padding-top: 23%;
+  padding-left: 1.5%;
 }
 
 .aboutheader {
@@ -70,7 +72,8 @@ h2 {
   z-index: 1;
   width: 100vw;
   height: 300px;
-  text-align: center;
+  padding-left: 1.5%;
+  text-align: left;
 }
 
 #menu {
