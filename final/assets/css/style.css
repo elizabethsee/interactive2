@@ -35,6 +35,17 @@ h2 {
   /* border-bottom: 3px solid #ffffff; */
 }
 
+h3 {
+  font-family: proxima-nova, sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 1px;
+  float: left;
+  margin-right: 85px;
+  /* border-bottom: 3px solid #ffffff; */
+}
+
  p {
    font-family: adobe-garamond-pro, serif;
    font-weight: 400;
@@ -119,10 +130,11 @@ h2 {
 
 #contractmenu {
   position: absolute;
-  width: 30px;
+  width: 800px;
   height: 50px;
-  top: 95%;
+  top: 93%;
   z-index: 1;
+  padding-left: 1.5%;
 }
 
 .expandmenu {
