@@ -15,22 +15,14 @@ body {
   clip-path: circle(90px at center);
   left: 30px;
   top: -250px;
-  animation: shake 2s;
+  animation: shake 10s;
 	animation-iteration-count: infinite;
 }
 
 @keyframes shake {
-    0% { transform: translate(1px, 1px) rotate(0deg); }
-    10% { transform: translate(-1px, -2px) rotate(-1deg); }
-    20% { transform: translate(-3px, 0px) rotate(1deg); }
-    30% { transform: translate(3px, 2px) rotate(0deg); }
-    40% { transform: translate(1px, -1px) rotate(1deg); }
-    50% { transform: translate(-1px, 2px) rotate(-1deg); }
-    60% { transform: translate(-3px, 1px) rotate(0deg); }
-    70% { transform: translate(3px, 1px) rotate(-1deg); }
-    80% { transform: translate(-1px, -1px) rotate(1deg); }
-    90% { transform: translate(1px, 2px) rotate(0deg); }
-    100% { transform: translate(1px, 1px) rotate(0deg); }
+  0% { transform: scale(1); }
+  70% { transform: scale(1.2); }
+  100% { transform: scale(1); }
 }
 
 @keyframes shakenul {
@@ -63,24 +55,16 @@ body {
   top: -10px;
   margin-left: -10px;
   clip-path: circle(90px at center);
-  animation: shake2 2s;
+  animation: shake2 10s;
 	animation-iteration-count: infinite;
   left: -20px;
   top: 200px;
 }
 
 @keyframes shake2 {
-    0% { transform: translate(1px, 1px) rotate(0deg); }
-    10% { transform: translate(1px, -2px) rotate(-1deg); }
-    20% { transform: translate(-3px, -1px) rotate(1deg); }
-    30% { transform: translate(2px, 3px) rotate(0deg); }
-    40% { transform: translate(0px, -1px) rotate(1deg); }
-    50% { transform: translate(2px, 2px) rotate(-1deg); }
-    60% { transform: translate(2px, -1px) rotate(0deg); }
-    70% { transform: translate(0px, 2px) rotate(-1deg); }
-    80% { transform: translate(1px, 1px) rotate(1deg); }
-    90% { transform: translate(-1px, -2px) rotate(0deg); }
-    100% { transform: translate(1px, 1px) rotate(0deg); }
+  0% { transform: scale(1); }
+  30% { transform: scale(1.2); }
+  100% { transform: scale(1); }
 }
 
 .sections2:hover {
@@ -108,24 +92,16 @@ body {
   top: -10px;
   margin-left: -10px;
   clip-path: circle(90px at center);
-  animation: shake3 2s;
+  animation: shake3 10s;
 	animation-iteration-count: infinite;
   left: -60px;
   top: -50px;
 }
 
 @keyframes shake3 {
-    0% { transform: translate(1px, 1px) rotate(0deg); }
-    10% { transform: translate(3px, -1px) rotate(-1deg); }
-    20% { transform: translate(2px, 0px) rotate(1deg); }
-    30% { transform: translate(0px, -2px) rotate(0deg); }
-    40% { transform: translate(3px, 1px) rotate(1deg); }
-    50% { transform: translate(-2px, 0px) rotate(-1deg); }
-    60% { transform: translate(1px, 1px) rotate(0deg); }
-    70% { transform: translate(2px, -2px) rotate(-1deg); }
-    80% { transform: translate(3px, 0px) rotate(1deg); }
-    90% { transform: translate(-2px, 2px) rotate(0deg); }
-    100% { transform: translate(1px, 1px) rotate(0deg); }
+    0% { transform: scale(1); }
+    50% { transform: scale(1.2); }
+    100% { transform: scale(1); }
 }
 
 .sections3:hover {
