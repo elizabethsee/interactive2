@@ -347,3 +347,9 @@ h4 {
   margin-left: 1160px;
   margin-top: 400px;
 }
+
+#curveshape1 {
+  z-index: -3;
+  position: absolute;
+  top: 0px;
+}
