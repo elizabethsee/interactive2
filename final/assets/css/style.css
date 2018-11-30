@@ -353,3 +353,15 @@ h4 {
   position: absolute;
   top: 0px;
 }
+
+#untitledshape1 {
+  z-index: -3;
+  position: absolute;
+  top: 0px;
+}
+
+#whiteshape1 {
+  z-index: -3;
+  position: absolute;
+  top: 0px;
+}
