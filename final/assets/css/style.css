@@ -246,6 +246,16 @@ h4 {
   text-align: left;
 }
 
+.about1 {
+  margin-left: 33%;
+  margin-right: 10%;
+  margin-top: 3%;
+  width: 400px;
+  position: absolute;
+  z-index: 1;
+  text-align: left;
+}
+
 .overlay {
   position: absolute;
   z-index: 1;
